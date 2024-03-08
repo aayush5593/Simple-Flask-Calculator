@@ -1,2 +1,16 @@
 # Simple-Flask-Calculator
 This is a simple calculator web application built using Flask, a Python web framework. The application allows users to perform basic arithmetic operations (addition, subtraction, multiplication, and division) on two input numbers.
+
+
+## Features
+
+- Addition, subtraction, multiplication, and division operations
+- Responsive design with a girly and pink-themed calculator container
+- Background image fixed to cover the entire page without stretching
+
+## Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/TasneemEltabakh/Simple-Flask-Calculator.git
