@@ -9,7 +9,7 @@ This is a simple calculator web application built using Flask, a Python web fram
 - Background image fixed to cover the entire page without stretching
 
 ## Demo video for Preview
-- Have a nice time watching this video:  
+- Have a nice time watching this video:  https://drive.google.com/file/d/1Pd5MjYPCabLH6DBy7Fsx2hg8OmlcuZA3/view?usp=sharing
 ## Getting Started
 
 1. Clone the repository: https://drive.google.com/file/d/1Pd5MjYPCabLH6DBy7Fsx2hg8OmlcuZA3/view?usp=sharing
