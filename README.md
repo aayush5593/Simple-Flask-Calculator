@@ -6,7 +6,9 @@ This is a simple calculator web application built using Flask, a Python web fram
 
 - Addition, subtraction, multiplication, and division operations
 - Responsive design with a girly and pink-themed calculator container
-- Background image fixed to cover the entire page without stretching
+
+### Prerequisites
+- Make sure you have Python and pip installed on your machine.
 
 ## Demo video for Preview
 - Have a nice time watching this video:  https://drive.google.com/file/d/1Pd5MjYPCabLH6DBy7Fsx2hg8OmlcuZA3/view?usp=sharing
