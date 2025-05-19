@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "aayush5593/simple-flask-calculator"
         IMAGE_TAG = "latest"
-        DOCKERHUB_CREDENTIALS = 'dockerhub-id' 
+        DOCKERHUB_CREDENTIALS = 'DockerHub' 
     }
 
     stages {
