@@ -5,4 +5,4 @@ scrape_configs:
   - job_name: 'flask_calculator'
     metrics_path: /metrics
     static_configs:
-      - targets: ['host.docker.internal:8081']
+      - targets: ['host.docker.internal:5000']
