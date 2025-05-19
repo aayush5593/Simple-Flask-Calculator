@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
-
+from prometheus_flask_exporter import PrometheusMetrics
 Calc1 = Flask(__name__, template_folder='Templates')
+metrics = PrometheusMetrics(Calc1)
 
 @Calc1.route('/')
 def index():
@@ -23,7 +24,7 @@ def Calculating():
 
     elif operation == 'divide':
         result = number1 / number2
-        
+
     return render_template('CalcFront.html', result=result)
 if __name__ == '__main__':
-    Calc1.run(debug=True, host='0.0.0.0', port=5000) 
+    Calc1.run(debug=True, host='0.0.0.0', port=5000)
