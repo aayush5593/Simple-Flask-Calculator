@@ -45,7 +45,7 @@ pipeline {
         stage('Run Container') {
         steps {
         script {
-            def containerId = sh(script: 'docker run -d -p 5000:5000 --name flask-container aayushhhsharma/simple-flask-calculator:latest', returnStdout: true).trim()
+            def containerId = sh(script: 'docker run -d -p 8080:8081 --name flask-container aayushhhsharma/simple-flask-calculator:latest', returnStdout: true).trim()
             echo "Container is running with ID: ${containerId}"
             }
         }
